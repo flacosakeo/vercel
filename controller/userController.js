@@ -9,7 +9,7 @@ const obtenerTodosLosUsuarios = (req,res)=>{
         res.json(results);
     });
 }
-
+      
 const obtenerUsuarioPorId = (req,res)=>{
     const {id} = req.params;
     const sql = 'select * from usuarios where id=?';

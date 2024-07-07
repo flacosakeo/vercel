@@ -1,0 +1,460 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    zoom: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+@media(max-width:1500px){
+header {
+    background: #353A40;
+    display: inline-block;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+ }
+ .logo {
+    display: inherit;
+    position: fixed;
+ }
+ .logo img {
+    height: 75px;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+ }
+ h2 {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 32px;
+ }
+ nav {
+    display: inline-block;
+    float: none;
+    padding: 50px;
+ }
+ a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+ }
+ #porcentajes{
+    display:flex; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+ }
+ .descuentos{
+   border: solid 2px ; 
+   width:200px; 
+   height:200px; 
+   margin: 5px;
+ }
+
+#des1{
+   border-color: green;
+   background-color: rgba(0, 128, 0, 0.260);
+   
+}
+#des2{
+   border-color: red;
+   background-color: rgba(128, 0, 0, 0.260);
+}
+#des3{
+   border-color: blue;
+   background-color: rgba(0, 0, 128, 0.260);
+}
+
+#documentacion{
+   font-size: 12px;
+   color: grey;
+}
+.venta{
+   text-align: center;
+}
+.formulario{
+   justify-content: center;
+   text-align: center;
+}
+
+input, select, button{
+   height: 30px;
+   
+}
+#nombre, #apellido, #cantidad, #op, button{
+   width:200px;
+   margin-top: 10px;
+}
+#mail{
+   width: 405px;   
+   display:flex;
+   margin-left: 470px;
+   margin-top: 10px;
+   
+}
+#total{
+   
+   border: none;
+   width:405px;
+   height: 40px;
+   background-color:cornflowerblue;
+   border-radius: 5px;
+}
+button{
+   background-color: lightgreen;
+   border-color: green;
+   border-radius: 5px;
+}
+footer{
+   height: 100px; 
+   background-color: #1c3758; 
+   color: aliceblue; 
+   display:flex; 
+   align-items: center; 
+   justify-content: center;
+   word-spacing: 50px;
+}
+}
+
+@media(max-width:1024px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 12%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 60px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 24px;
+    }
+    nav {
+      display:block;      
+      padding: 30px;
+      font-size: 18px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+      
+   }  
+   #mail{
+      width: 405px; 
+      margin-left: 310px;
+   }
+   #total{
+      width:405px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      display:flex; 
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 50px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
+
+@media(max-width:768px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 8%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 35px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 20px;
+    }
+    nav {
+      display:block;      
+      padding: 1px;
+      font-size: 14px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+   }  
+   #mail{
+      width: 405px;   
+      margin-left: 181px;
+   }
+   #total{
+      width:405px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      font-size: 12px;
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 1px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
+
+
+
+
+@media(max-width:425px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 12%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 25px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 24px;
+    }
+    nav {
+      display:block;      
+      padding: 1px;
+      font-size: 10px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+   }  
+   #mail{
+      width: 405px;   
+      margin-left: 10px;
+   }
+   #total{
+      width:405px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      font-size: 12px;
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 5px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
+
+@media(max-width:375px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 8%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 25px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 20px;
+    }
+    nav {
+      display:block;      
+      padding: 1px;
+      font-size: 7px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+   }  
+   #mail{
+      width: 200px;   
+      margin-left: 88px;
+   }
+   #total{
+      width:250px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      font-size: 12px;
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 5px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
+
+
+   
+
+
+@media(max-width:375px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 8%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 25px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 20px;
+    }
+    nav {
+      display:block;      
+      padding: 1px;
+      font-size: 8px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+   }  
+   #mail{
+      width: 200px;   
+      margin-left: 88px;
+   }
+   #total{
+      width:250px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      font-size: 12px;
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 5px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
+
+
+
+@media(max-width:320px){
+   header {
+      background: #353A40;
+      display: inline-block;
+      width: 100%;
+      height: 7%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+   
+    .logo img {
+      height: 25px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+    h2 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 12px;
+    }
+    nav {
+      display:block;      
+      padding: 1px;
+      font-size: 7px;
+    }
+    a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+    } 
+   #nombre, #apellido, #cantidad, #op, button{
+      margin-top: 10px;
+   }  
+   #mail{
+      width: 200px;   
+      margin-left: 60px;
+   }
+   #total{
+      width:250px;
+   }
+   footer{
+      height: 100px; 
+      background-color: #1c3758; 
+      color: aliceblue; 
+      font-size: 12px;
+      align-items: center; 
+      justify-content: center;
+      word-spacing: 5px;
+   }
+   label{
+      margin: 1%;
+   }  
+   }
