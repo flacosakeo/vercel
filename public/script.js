@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
                       Email: ${usuario[0].mail}
                 </span>
                 <div class="actions">
-                    <button class='update' data-id="${usuario[0].id}" data-nombre="${usuario[0].nombre}" data-apellido="${usuario[0].apellido}" data-mail="${usuario[0].mail}"> Actualizar </button>
-                    <button class='delete' data-id="${usuario[0].id}"> Eliminar </button>
+                    <button class='update' data-id="${usuario[0].id}" data-nombre="${usuario[0].nombre}" data-apellido="${usuario[0].apellido}" data-mail="${usuario[0].mail}"> Editar </button>
+                    <button class='delete' data-id="${usuario[0].id}"> Borrar </button>
                 </div>`;
             console.log(usuario)
             
@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
                       Email: ${usuario.mail}
                 </span>
                 <div class="actions">
-                    <button class='update' data-id="${usuario.id}" data-nombre="${usuario.nombre}" data-apellido="${usuario.apellido}" data-mail="${usuario.mail}"> Actualizar </button>
-                    <button class='delete' data-id="${usuario.id}"> Eliminar </button>
+                    <button class='update' data-id="${usuario.id}" data-nombre="${usuario.nombre}" data-apellido="${usuario.apellido}" data-mail="${usuario.mail}"> Editar </button>
+                    <button class='delete' data-id="${usuario.id}"> Borrar </button>
 
                 </div>                
             `;

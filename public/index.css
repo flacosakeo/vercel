@@ -62,7 +62,8 @@ h1, h2 {
 
 
 form {
-    background: #fff;
+    background-color: #e3e5ff;
+    box-shadow: 3px 3px black;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -89,7 +90,7 @@ input[type="number"] {
 
 
 button {
-    background-color: #28a745;
+    background-color: #000000;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -104,7 +105,7 @@ button {
 
 
 button:hover {
-    background-color: #218838;
+    background-color: #666666;
 }
 
 
@@ -133,20 +134,24 @@ li .actions {
 
 
 li button {
-    background-color: #007bff;
+    background-color: #ff9900;
 }
 
 
 li button:hover {
-    background-color: #0056b3;
+    background-color: #ffd478;
 }
 
 
 li .delete {
-    background-color: #dc3545;
+    background-color: #0004ff;
 }
 
 
 li .delete:hover {
-    background-color: #c82333;
+    background-color: #4d59ff;
+}
+
+li{
+    background-color: #e3e5ff;
 }
